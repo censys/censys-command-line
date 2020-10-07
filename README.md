@@ -1,6 +1,6 @@
 # :file_cabinet: Censys CLI has been [merged](https://github.com/censys/censys-python/pull/42) into [`censys-python`](https://github.com/censys/censys-python)
 
-> Archived in favor of [`censys/censys-python`](https://github.com/censys/censys-python) as [`censys/censys-command-line`](https://github.com/censys/censys-command-line) has been implemented as of [`censys/censys-python#42`](https://github.com/censys/censys-python/pull/42).
+> Please use [`censys/censys-python`](https://github.com/censys/censys-python) as [`censys/censys-command-line`](https://github.com/censys/censys-command-line) has been implemented as of [`censys/censys-python#42`](https://github.com/censys/censys-python/pull/42).
 
 ## Censys Command Line
 
