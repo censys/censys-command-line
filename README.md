@@ -1,18 +1,25 @@
-## Censys Command Line Tool Examples
+# :file_cabinet: Censys CLI has been [merged](https://github.com/censys/censys-python/pull/42) into [`censys-python`](https://github.com/censys/censys-python)
+
+> Please use [`censys/censys-python`](https://github.com/censys/censys-python) as [`censys/censys-command-line`](https://github.com/censys/censys-command-line) has been implemented as of [`censys/censys-python#42`](https://github.com/censys/censys-python/pull/42).
+
+## Censys Command Line
 
 This script allows a user to query the Censys API from the command. The results from the query can be written to CSV, JSON, or simply to the screen.
 
-##### Installation:
+### Installation
+
 ```bash
 pip install censys-command-line
 ```
 
 Or
+
 ```bash
 pip install git+https://github.com/censys/censys-command-line
 ```
 
-##### Usage:
+### Usage
+
 ```bash
 usage: censys [-h] [--fields FIELDS [FIELDS ...]] --query_type
                               ipv4|certs|websites [--append {true,false}]
@@ -46,12 +53,14 @@ optional arguments:
 
 ```
 
-##### Searching IPv4:
+#### Searching IPv4
+
 ```bash
 censys "ip: [ 134.54.0.0 TO 134.54.65.255 ]" --query_type ipv4 --fields ip protocols --output json
 ```
 
-##### Searching Certificates
+#### Searching Certificates
+
 ```bash
 censys "parsed.issuer.organization: Let's Encrypt" --query_type=certs
 ```
